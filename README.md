@@ -7,14 +7,12 @@ The goal of the NYT Cooking Recipe Scraper is to export recipes from the New Yor
 
 
 
-## Prerequisites
-Before using the NYT Cooking Recipe Scraper, make sure you have the following Python libraries installed:
-
 ### Python Libraries
-Beautifulsoup 4
-Requests library
-YAML library
-Base64 library
+Before using the NYT Cooking Recipe Scraper, make sure you have the following Python libraries installed:
+- Beautifulsoup 4
+- Requests library
+- YAML library
+- Base64 library
 
 ## YAML recipe Format
 YAML multiple recipes example:
