@@ -4,6 +4,8 @@
 The goal of the NYT Cooking Recipe Scraper is to export recipes from the New York Times Cooking website and save them in a YAML format compatible with the Paprika 3(recipe managing app). It is crucial to emphasize that this script is strictly intended for personal use only. As a subscriber to the New York Times, this script allows you to access recipes you have legal access to through your subscription.
 
 ## Python Libraries
+The following Python libraries are used in this project:
+
 Beautifulsoup 4
 Requests library
 YAML library
@@ -12,7 +14,7 @@ Base64 library
 ## YAML recipe Format
 YAML multiple recipes example:
 
-- name: My Tasty Recipe
+  name: My Tasty Recipe
   servings: 4-6 servings
   source: Food Network
   source_url: http://www.google.com
@@ -23,31 +25,6 @@ YAML multiple recipes example:
   categories: [Dinner, Holiday]
   difficulty: Easy
   rating: 5
-  notes: |
-    This is delicious!!!
-  ingredients: |
-    1/2 lb meat
-    1/2 lb vegetables
-    salt
-    pepper
-    2 tbsp olive oil
-    4 cups flour
-  directions: |
-    Mix things together.
-    Eat.
-    Tasty.
-    Yum yum yum.
-    
-- name: My Tasty Recipe 2
-  servings: 4-6 servings
-  source: Food Network
-  source_url: http://www.google.com
-  prep_time: 10 min
-  cook_time: 30 min
-  nutritional_info: 500 calories
-  difficulty: Easy
-  rating: 5
-  photo: | (base-64 encoded image)
   notes: |
     This is delicious!!!
   ingredients: |
