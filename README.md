@@ -3,12 +3,9 @@
 ## Overview
 The goal of the NYT Cooking Recipe Scraper is to export recipes from the New York Times Cooking website and save them in a YAML format compatible with the Paprika 3(recipe managing app). It is crucial to emphasize that this script is strictly intended for personal use only. 
 
-## Usage
-
-
-
 ### Python Libraries
 Before using the NYT Cooking Recipe Scraper, make sure you have the following Python libraries installed:
+- pandas
 - Beautifulsoup 4
 - Requests library
 - YAML library
